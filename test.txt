@@ -1,0 +1,18 @@
+@startuml
+header Page Header
+
+title Gestionnaire de Vente
+
+left to right direction
+skinparam packageStyle rectangle
+
+:Client:
+:Equipe: <|-- :Livreur:
+:Equipe: <|-- :Pizzaolio:
+:Directeur:
+:Système Bancaire: as SB
+
+(consulter la carte) <<--- :Client:
+(consulter la carte) <<--- :Equipe:
+
+@enduml

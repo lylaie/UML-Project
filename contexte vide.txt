@@ -1,0 +1,29 @@
+@startuml
+left to right direction
+title Diagramme de contexte
+hide footbox
+
+skinparam sequence {
+}
+
+skinparam packageStyle rectangle
+
+:Client:
+:Directeur:
+
+:Systeme Bancaire: as SB
+
+top to bottom direction
+:Equipe: <|-- :Livreur:
+:Equipe: <|-- :Pizzaiolo:
+
+left to right direction
+rectangle système {
+}
+
+:Client: -- système
+:Equipe: -- système
+:Directeur: -- système
+système -- SB
+
+@enduml
