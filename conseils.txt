@@ -1,30 +1,12 @@
-gestionnaire des contextes simples
-informations pour la livraison
-suppression commander une pizza
-enlever faire des dusggestions
-
-paiement au moment de la préparation de la commande
-dans annulation de commande pas parler de remboursement
 a éclaircir dans le iagramme de séquence ou d'activité de la sénnulation
-
-vérification du stock dans la préparation de la commande
-au moment ou leclient commande, le stock est maj automatiquement
-
-retirer la pizza de la carte est automatique
-Suivre les stocks en temps réel directeur réapproviosionnement
-
-gestion des recettes -> mise à jour carte
-
-historique des commandes et statisques
 
 quand la personne reste inactive pendnant un certain temps le panier vide
 
 diagramme de séquence et/ou d'activiés
 
 
-
 Finir les descriptifs des usercase
 Diagramme de séquence ou d'activités
-Diagramme de Package d'Authentificatio
+
 
 Incorporer choix de la pizzeria en fonction de la livraison
